@@ -9,8 +9,11 @@ const _dirname = path.dirname(_filename);
 
 const app = express();
 
+
+app.use('/pub', express.static(path.join(_dirname, 'client', 'public')));
+
 app.get('/', (req, res) => {
-    res.send('Hello, World');
+    res.sendFile(path.join(_dirname, 'client', 'index.html'));
 })
 
 app.get('/users', (req, res) => {
