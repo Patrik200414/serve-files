@@ -4,7 +4,8 @@
   "description": "In this reposetory I will do what the Journey says in the serve files lecture",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon index.js"
   },
   "repository": {
     "type": "git",
