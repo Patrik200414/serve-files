@@ -1,0 +1,22 @@
+{
+  "name": "serve-files",
+  "version": "1.0.0",
+  "description": "In this reposetory I will do what the Journey says in the serve files lecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrik200414/serve-files.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrik200414/serve-files/issues"
+  },
+  "homepage": "https://github.com/Patrik200414/serve-files#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
